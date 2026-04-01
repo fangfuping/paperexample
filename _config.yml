@@ -1,10 +1,11 @@
-title: "Paper Example"
-description: "A research project page"
-author: "fangfuping"
+title: Paper Example
 theme: minima
 markdown: kramdown
-plugins:
-  - jekyll-seo-tag
+
+# 👇 这一行强制修复视频 MIME 类型（解决你的报错）
+webrick:
+  mime_types:
+    mp4: video/mp4
 # Site-wide settings
 # ------------------
 #
