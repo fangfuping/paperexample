@@ -1,3 +1,10 @@
+title: "Paper Example"
+description: "A research project page"
+author: "fangfuping"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
 # Site-wide settings
 # ------------------
 #
